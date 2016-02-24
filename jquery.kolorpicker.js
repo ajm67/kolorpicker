@@ -157,7 +157,7 @@ $(document).ready(function() {
     var color = '#' + $(this).attr('id');
 
     //unhook ourselves from the page
-    cleanPicker();
+
 
     $(input).val(color);
 
@@ -172,6 +172,5 @@ $(document).ready(function() {
   });
 
   $(document).on("click", '.x-close-box', function(){
-    cleanPicker();
   });
 });
